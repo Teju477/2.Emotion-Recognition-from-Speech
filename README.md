@@ -1,85 +1,118 @@
-# Speech Emotion Recognition
-
-[![Watch the video](https://img.youtube.com/vi/QkSe113tZsA/maxresdefault.jpg)](https://youtu.be/QkSe113tZsA)
-
----
 
 
-## Problem Statement:
+# **Emotion Recognition from Speech 🎤💬**
 
-The project aims to develop a robust speech-emotion recognition system capable of accurately classifying the emotional states conveyed in spoken language. By analyzing the acoustic features of speech signals, the system should be able to categorize emotions such as happiness, sadness, anger, fear, and more.
+![task 2](https://github.com/user-attachments/assets/5e568b54-f82a-4ffe-90d1-886ae0dc5f01)
 
----
 
-## Description
+## **Overview**
+This project aims to recognize emotions from speech using a Long Short Term Memory (LSTM) model. It was developed during my internship as a Machine Learning Engineer at CodeAlpha.
 
-This project uses advanced signal processing and machine learning techniques to construct a reliable speech-emotion recognition system. The primary goal is to analyze the acoustic characteristics of speech signals, enabling precise classification of emotions expressed in spoken language.
+## **Demo**
+Check out the demo video showcasing the web app's capabilities in recognizing emotions from audio files!
 
-**Project Objectives:**
 
-1. **Emotion Classification:** Develop a sophisticated speech emotion recognition model capable of accurately classifying emotions conveyed in spoken language, including happiness, sadness, anger, fear, and more.
-   
-2. **Acoustic Feature Analysis:** Utilize signal processing techniques to extract relevant acoustic features from speech signals, forming the basis for emotion classification.
-   
-3. **Machine Learning Integration:** Implement machine learning algorithms to process acoustic features and build a robust model for emotion recognition.
-   
-4. **Performance Evaluation:** Employ appropriate evaluation metrics to assess the model's accuracy and effectiveness in recognizing various emotions from speech signals.
+https://github.com/user-attachments/assets/37a8fd29-6b5a-4e83-8121-c76826e0c988
 
-**Key Deliverables:**
 
-1. **Well-Trained Model:** A well-trained speech emotion recognition model capable of accurately categorizing emotions in spoken language.
-   
-2. **Comprehensive Documentation:** Detailed documentation detailing the extraction of acoustic features, model architecture, and evaluation methods.
-   
-3. **Complete Codebase:** A comprehensive codebase, including signal processing scripts, machine learning algorithms, and related tools used in model development.
-   
-4. **User Guide:** A user guide provides clear instructions for effectively utilizing the speech-emotion recognition system.
-   
-5. **Evaluation Reports:** Evaluation reports showcasing the model's accuracy, performance, and capability to recognize different emotions in speech.
 
-This project addresses the challenge of recognizing emotions from speech, offering a valuable tool for applications such as sentiment analysis, virtual assistants, and emotion-aware systems.
+## **Features**
+- Predicts emotions such as **Fear**, **Sadness**, and more from speech audio.
+- User-friendly web interface for easy interaction.
+- Built using advanced machine learning techniques for accurate predictions.
 
----
+## **Project Lifecycle**
+1. **Data Collection** 📊
+   - Gathered diverse audio samples for training the model.
 
-## Project Highlights
+![DADADAD](https://github.com/user-attachments/assets/a79d6113-a975-4d5a-8f0b-f35c360c3319)
 
-Throughout this project, we developed a robust speech-emotion recognition system. The key milestones and achievements are summarized below:
 
-1. **Data Collection and Preprocessing:**
-   
-   - Acquired diverse speech datasets containing various emotional expressions.
-   
-   - Conducted data preprocessing, including noise reduction, audio normalization, and feature extraction.
+2. **Data Preprocessing** 🧹
+   - Cleaned and prepared the audio data for analysis.
 
-2. **Feature Extraction and Signal Processing:**
-   
-   - Utilized signal processing techniques such as Fourier Transform and Mel-frequency cepstral coefficients (MFCCs) to extract relevant acoustic features from speech signals.
-   
-   - Processed audio waves to enhance feature representation and prepare the data for machine learning algorithms.
+![SPECTROGRAM](https://github.com/user-attachments/assets/8264e14d-9de5-4aa8-b178-919eaeaca29e)
 
-3. **Machine Learning Model:**
-   
-   - Implemented a deep learning model, specifically Convolutional Neural Networks (CNNs), for speech emotion recognition.
-   
-   - Trained the model on the preprocessed speech data, optimizing its architecture for optimal performance.
 
-4. **Model Performance:**
-   
-   - Evaluated the model using metrics such as accuracy, precision, recall, and F1-score to measure its effectiveness in recognizing different emotions.
-   
-   - Achieved significant accuracy in emotion classification, showcasing the model's capability to distinguish between various emotional states in spoken language.
 
-5. **Real-time Emotion Recognition:**
-   
-   - Developed a real-time emotion recognition module, allowing the model to analyze emotions from live audio input.
-   
-   - Demonstrated the system's effectiveness in recognizing emotions in real-time scenarios, emphasizing its practical application.
+3. **Data Augmentation** 🔄
+   - Enhanced the dataset by creating variations of existing audio samples.
+  
+![AUGMONTED](https://github.com/user-attachments/assets/1a922a3e-a4a1-474f-8a43-f1144610d8a5)
 
-In conclusion, our speech emotion recognition project successfully addressed the challenge of classifying emotions from spoken language. The utilization of advanced signal processing techniques and deep learning models resulted in a powerful tool capable of accurately recognizing diverse emotional expressions in speech. The project's achievements highlight the potential of this technology in applications requiring emotion-aware systems and natural language processing.
 
----
+4. **Feature Extraction** 🔍
+   - Identified and extracted key features from the audio files.
+  
 
-# [![Author](https://img.shields.io/badge/Author-Viraj%20Bhutada-blue.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/virajnbhutada24/)
+5. **Model Training** 🏋️‍♂️
+   - Trained the LSTM model on the processed data.
 
----
+![model training](https://github.com/user-attachments/assets/a8a5131a-7812-4f8a-9203-de8772447584)
 
+
+6. **Model Evaluation** 📈
+   - Assessed the model's performance and improved accuracy.
+![LSTM](https://github.com/user-attachments/assets/9e7d373c-9f86-4c2e-91e9-5f0c01ca553d)
+
+
+7. **Save the Model** 💾
+   - Saved the trained model for future predictions.
+
+![model](https://github.com/user-attachments/assets/f7743b4b-11a3-4adf-813a-b00265ed82ef)
+
+
+9. **Model Deployment** 🚀
+   - Deployed the model as a web application for user access.
+
+![Capture](https://github.com/user-attachments/assets/a6452e2e-b8b5-4a5a-969e-16a2310e0747)
+
+
+## **Getting Started**
+To run this project locally, follow these steps:
+
+### **Prerequisites**
+- Python 3.x
+- Required libraries (listed in `requirements.txt`)
+
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/emotion-recognition-speech.git
+   cd emotion-recognition-speech
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the web app:
+   ```bash
+   python app.py
+   ```
+
+## **📁 Repository Structure**
+```
+emotion-recognition-speech/
+│
+├── app/
+│   └── app.py                # Main application file
+├── docs/
+│   ├── codealpha-emotion-recognition-from-speech.pdf
+    ├── Emotion-Recognition-From-Speech.pdf             # Document for steps taken to make this project
+├── jupyter notebook/
+│   └──  codealpha-emotion-recognition-from-speech.ipynbb       # To Do Experimentation with data
+├── LSTM model/
+│   └── lstm_model.h5              # LSTM Model
+├── test audio files/
+│   ├── OAF_base_sad.wav
+    ├── YAF_back_fear.wav             # Audio used for model prediction
+├── requirements.txt      # Required Python packages
+├── README.md             # Project documentation
+└── ...
+```
+
+
+## **Acknowledgments**
+Thanks to #CodeAlpha for the opportunity to work on this exciting project!
